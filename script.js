@@ -1,5 +1,7 @@
 //getting all the menu items
 let menuItems = document.querySelectorAll('.menuItem .innerText')
+let body = document.querySelector('body')
+
 
 //this creates a delay that resets the animation delay
 function resetDelay(delay) {
@@ -7,6 +9,10 @@ function resetDelay(delay) {
 }
 
 window.addEventListener('click', () => {
+
+  //transition the BG color
+  body.classList.toggle('blackBG')
+
   for (let i = 0; i < menuItems.length; i++) {
     //increasing each delay per menuItem
     let animationDelay = 0 + (i / 5)

@@ -2,12 +2,16 @@
   box-sizing:border-box;
 }
 body {
-  background-color:black;
+  background-color:white;
   color:white;
   font-family: 'Noe Display', Helvetica, Arial, sans-serif;
   font-weight:500;
   margin:0;
   padding:0;
+  transition: background-color .5s ease-in-out;
+}
+.blackBG {
+  background-color:black;
 }
 #container {
   margin: 0 auto;
@@ -26,7 +30,7 @@ body {
   font-size:8em;
   margin: 0px;
   transform: translateY(100%);
-  transition: all 1s ease-in-out;
+  transition: all 1s ease-out;
 }
 .menuItem > .innerText.animated {
   transform: translateY(0%);
