@@ -1,5 +1,5 @@
-# toggleGridLines
-## Preview: https://togglegridlines.netlify.app/
+# revealText
+## Preview: https://revealtextcode.netlify.app/
 
 Building something that
- - Enables you to see an overlay of the grid that the site was built on
+ - Animates menu items to do a reveal text animation on click with staggered timing
