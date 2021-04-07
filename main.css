@@ -1,0 +1,34 @@
+* {
+  box-sizing:border-box;
+}
+body {
+  background-color:black;
+  color:white;
+  font-family: 'Noe Display', Helvetica, Arial, sans-serif;
+  font-weight:500;
+  margin:0;
+  padding:0;
+}
+#container {
+  margin: 0 auto;
+  width: 100vw;
+  padding: 10vh;
+}
+
+.menuItem {
+  width:auto;
+  overflow:hidden;
+}
+.menuItem:first-of-type .innerText {
+  font-style:italic;
+}
+.menuItem .innerText {
+  font-size:8em;
+  margin: 0px;
+  transform: translateY(100%);
+  transition: all 1s ease-in-out;
+}
+.menuItem > .innerText.animated {
+  transform: translateY(0%);
+}
+
