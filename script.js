@@ -15,7 +15,7 @@ window.addEventListener('click', () => {
 
   for (let i = 0; i < menuItems.length; i++) {
     //increasing each delay per menuItem
-    let animationDelay = 0 + (i / 5)
+    let animationDelay = 0 + (i / 10)
 
     //setting the transition delay
     menuItems[i].style.transitionDelay = animationDelay + 's'
